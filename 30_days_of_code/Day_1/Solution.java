@@ -1,11 +1,7 @@
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 public class Solution {
-	
+
     public static void main(String[] args) {
         int i = 4;
         double d = 4.0;
@@ -28,3 +24,5 @@ public class Solution {
         	the 's' variable above should be printed first. */
         System.out.println(s + s2);
         scan.close();
+    }
+}
