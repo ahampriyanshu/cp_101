@@ -7,9 +7,8 @@ percentage marks obtained by that student, correct to two decimal places.
 My ans : 
 """
 if __name__ == '__main__':
-    n = int(input())
     student_marks = {}
-    for _ in range(n):
+    for _ in range(int(input())):
         name, *line = input().split()
         scores = list(map(float, line))
         student_marks[name] = scores
