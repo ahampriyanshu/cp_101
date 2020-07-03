@@ -29,5 +29,4 @@ arr1 = [list(map(int,input().split())) for _ in range(arr)]
 
 arr2 = [list(map(int,input().split())) for _ in range(arr)]
 
-
 print(np.dot(arr1,arr2))
