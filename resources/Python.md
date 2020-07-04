@@ -126,8 +126,8 @@ Counter({1: 3, 5: 2, 2: 1, 3: 1, 4: 1})
 
 ```python
 from collections import Counter
-my_string_1 = "NAMAN"
-my_string_2 = "NAMAN"
+my_string_1 = "TACOCAT"
+my_string_2 = "TACOCAT"
 if(Counter(my_string_1) == Counter(my_string_2)):
     print("Anagram")
 else:
@@ -223,7 +223,7 @@ Eligible
 x = lambda a,b,c : a+b+c
 print(x(10,20,30))
 Output
-8
+60
 ```
 
 ### Apply function for all elements in list
