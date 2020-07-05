@@ -43,3 +43,23 @@ if __name__ == '__main__':
     n = int(input())
     print_rangoli(n)
 
+
+"""
+    Priyanshu's Solution
+"""
+
+import string
+
+
+def print_rangoli(size):
+    width = 4*size - 3
+    pattern = []
+    for i in range(n):
+        line = "-".join(string.ascii_lowercase[i:n])
+        L.append((s[::-1]+s[1:]).center(width, "-"))
+    print('\n'.join(L[:0:-1]+L))
+
+    
+if __name__ == '__main__':
+    n = int(input())
+    print_rangoli(n)
