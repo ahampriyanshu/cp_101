@@ -1,10 +1,9 @@
-T = int(input())
-for _ in range(T):
+for _ in range(int(input())):
     N = int(input())
     A, B, C = 1, 2, 3
-    evens_sum = 2
+    ans = 2
     while C < N:
         if not C % 2:
-            evens_sum += C
+            ans += C
         A, B, C = B, C, B + C
-    print(evens_sum)
+    print(ans)

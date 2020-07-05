@@ -1,10 +1,7 @@
-t=int(input())
-def ar(x):
-    return x*(x+1);
-for i in range(t):
+for _ in range(int(input())):   
     n =int(input())
-    n -=1;
-    a=int(n/3);
-    b=int(n/5);
-    c=int(n/15);
-    print(int(int(3*ar(a) + 5*ar(b) - 15*ar(c))>>1));
+    n -= 1                    #excluding outer-limit
+    a= n//3                   
+    b= n//5
+    c= n//15 
+    print((3*a*(a+1) + 5*b*(b+1) - 15*c*(c+1))>>1) #bitwise right-shift
