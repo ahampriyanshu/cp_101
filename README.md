@@ -1,3 +1,4 @@
+[![languages](https://img.shields.io/github/languages/count/priyanshumay/competitive_programming?style=flat-square)]()
 ## DS ALgo
 ## CodeChef
 CodeChef is a competitive programming website. It is a non-profit educational initiative of Directi.
