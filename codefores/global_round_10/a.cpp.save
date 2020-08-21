@@ -17,7 +17,7 @@ void solve(){
     cin >>N;
  	vector<ll> arr(N);
  	set<ll> ar;
- 	for ( i =0; i< N; i++)
+ 	for ( i =0; i(N; i++)
     {
  		cin >> arr[i];
  		ar.insert(arr[i]);

@@ -71,13 +71,13 @@ This is a string in Python
 
 ```python
 n = int(input("How many times you need to repeat:"))
-my_string = "Priyanshumay\n"
+my_string = "constusername\n"
 print(my_string*n)
 Output
 How many times you need to repeat:3
-Priyanshumay
-Priyanshumay
-Priyanshumay
+constusername
+constusername
+constusername
 ```
 ### Joining Two strings using addition operator
 

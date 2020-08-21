@@ -1,5 +1,5 @@
 /*
-Author : priyanshumay
+Author : constusername
 Problem: B
 Contest: 1392
 Platform: Codeforces
