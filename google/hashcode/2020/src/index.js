@@ -46,15 +46,9 @@ const input = {
         answer: [],
       };
 
-      // console.log(library.indexes);
-
       libraries.push(library);
-      // a_example --> scores 1 2 3 6 5 4
-      // [ { count: 5, process: 2, bpd: 2, indexes: [ 0, 1, 2, 3, 4 ] },  | 1+2+3+6+5=17
-      // { count: 4, process: 3, bpd: 1, indexes: [ 0, 2, 3, 5 ] } ]      | 1+3+6+4=14
     }
 
-    // LOGIC
     let ID = 0;
     let max_process = 0;
     let lcount = 0;
@@ -120,9 +114,7 @@ const input = {
       answer += '\n';
     }
 
-    // console.log(answer);
-
-    await write(file + '.out', answer);
+  await write(file + '.out', answer);
 
   } catch (err) {
     console.error(err);
