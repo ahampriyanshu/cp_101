@@ -11,15 +11,13 @@ func main(){
     }
     fmt.Scan(&sum,&len)
     
-    for i:=0;i<n-len;i++{
+    for i:=0;i<=n-len;i++{
         ans := 0
         for j:=i;j<i+len;j++{
-            fmt.Print(a[j])  
+            ans += a[j] 
             }
-            fmt.Println()
             if ans == sum{
             cnt++;
-            break
             }
         }
         fmt.Println(cnt)
