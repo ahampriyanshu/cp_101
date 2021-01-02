@@ -1,5 +1,5 @@
 /*
-Author : constusername
+Author : ahampriyanshu
 Problem: SKMP
 Contest: AUG20B
 Platform: CodeChef

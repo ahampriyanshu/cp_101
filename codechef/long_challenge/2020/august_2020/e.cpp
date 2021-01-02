@@ -1,5 +1,5 @@
 /*
-Author : constusername
+Author : ahampriyanshu
 Problem: CHEFWED
 Contest: AUG20B
 Platform: CodeChef

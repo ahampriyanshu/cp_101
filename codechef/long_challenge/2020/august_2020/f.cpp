@@ -1,5 +1,5 @@
 /*
-Author : constusername
+Author : ahampriyanshu
 Problem: CHEFCOMP
 Contest: AUG20B
 Platform: CodeChef

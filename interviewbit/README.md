@@ -1,1 +1,1 @@
-Empty repository
+# Empty repository

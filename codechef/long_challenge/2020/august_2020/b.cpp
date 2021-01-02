@@ -1,5 +1,5 @@
 /*
-Author : constusername
+Author : ahampriyanshu
 Problem: LINCHESS
 Contest: AUG20B 
 Platform: CodeChef
